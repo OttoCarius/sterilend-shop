@@ -1,0 +1,92 @@
+.header-bg {
+  background-image: url("../../assets/logo/Ellipse\ 54.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 1000px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: #007a9a;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.header__logo--title {
+  font-size: 22px;
+  line-height: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.catalog {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #007a9a;
+
+  border: 1px solid #007a9a;
+  border-radius: 36px;
+}
+
+.catalog__title {
+  padding: 16px 2px 16px 20px;
+}
+
+.catalog__icon {
+  padding: 16px 19px;
+  background-color: #b6e4f1;
+  border-radius: 50%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-item {
+  font-family: "Manrope";
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #007a9a;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #007a9a;
+  border-radius: 30px;
+}
+
+.cart__icon {
+  padding: 6px;
+  background-color: #b6e4f1;
+  border-radius: 46%;
+}
+
+.items__length {
+  padding: 4px;
+}
