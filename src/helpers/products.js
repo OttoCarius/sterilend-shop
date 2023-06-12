@@ -1,7 +1,7 @@
 import hero1 from "../assets/products/hero1.png";
-import hero2 from "../assets/products/reserv1.jpg";
+import hero2 from "../assets/products/prod8.png";
 import hero3 from "../assets/products/hero3.png";
-import hero4 from "../assets/products/reserv3.jpg";
+import hero4 from "../assets/products/hero4.png";
 import prod1 from "../assets/products/prod1.png";
 import prod2 from "../assets/products/prod2.png";
 import prod3 from "../assets/products/prod3.png";
@@ -21,7 +21,9 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: hero1,
     category: "hero",
+    oldPrice: 2400,
     price: 1900,
+    revolut: "y природній дезінфекції",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -33,7 +35,9 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: hero2,
     category: "hero",
+    oldPrice: 2300,
     price: 1820,
+    revolut: "y екологічній розробці",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -45,7 +49,9 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: hero3,
     category: "hero",
+    oldPrice: 2200,
     price: 1800,
+    revolut: "y санітарній безпеці",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -57,7 +63,9 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: hero4,
     category: "hero",
+    oldPrice: 2200,
     price: 1700,
+    revolut: "ефективності проти бактерій",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:

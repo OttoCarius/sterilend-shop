@@ -1,0 +1,10 @@
+.splide__pagination__page {
+  margin-left: 50px;
+  margin-bottom: -180px;
+  background-color: #007a9a;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}

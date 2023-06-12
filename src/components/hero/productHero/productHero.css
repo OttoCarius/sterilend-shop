@@ -1,0 +1,115 @@
+.productHero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.producthero__title--wrap {
+  width: 370px;
+}
+
+.producthero__title {
+  font-family: "Manrope";
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 400;
+  color: #242829;
+}
+
+.producthero__span {
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 400;
+  color: #007a9a;
+}
+
+.productHero__details {
+  font-family: "Manrope";
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #007a9a;
+
+  padding: 10px 28px;
+  border: 1px solid #007a9a;
+  border-radius: 50px;
+  margin-top: 51px;
+}
+
+.producthero__img {
+  height: 540px;
+}
+
+.producthero__info--wrap {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.producthero__oldPrice {
+  text-decoration: line-through;
+  font-family: "Manrope";
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #007a9a;
+}
+
+.producthero__text {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #007a9a;
+}
+
+.producthero__name {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #242829;
+}
+
+.producthero__class {
+  font-family: "Manrope";
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #5c5c5c;
+}
+
+.productHero__buy {
+  font-family: "Manrope";
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #ffff;
+  height: 100px;
+  width: 100px;
+  background-color: #007a9a;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.productHero__buy--border {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid #b6e4f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.productHero__buy--border2 {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid #80cde4;
+}
