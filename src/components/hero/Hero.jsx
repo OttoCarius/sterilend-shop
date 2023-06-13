@@ -6,7 +6,7 @@ import "./hero.css";
 
 const Hero = ({ data }) => {
   return (
-    <div className="hero">
+    <div className="hero container">
       <Splide
         options={{
           perPage: 1,

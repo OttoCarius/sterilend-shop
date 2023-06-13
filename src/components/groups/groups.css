@@ -1,0 +1,102 @@
+.aa {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  margin-top: 180px;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.tabs-wrap {
+  margin-top: 40px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tabs-img {
+  padding: 15px 20px;
+  background-color: #c3ebf5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.tabs-img:hover {
+  background-color: #6ecce9;
+  border: 1px solid #fff;
+  padding: 14px 19px;
+}
+
+.group-title {
+  margin-top: 350px;
+  font-family: "Manrope";
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 400;
+  color: #242829;
+  text-align: center;
+}
+
+.title {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 500;
+  color: #007a9a;
+  margin-bottom: 35px;
+}
+
+.part-title {
+  font-family: "Manrope";
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #0d0d0e;
+  margin-bottom: 15px;
+}
+
+.content {
+  width: 650px;
+  height: 650px;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 100px;
+  background-color: #eaf1f9;
+  border-radius: 50%;
+}
+
+.content-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 10px;
+
+  font-family: "Manrope";
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #007a9a;
+}
+
+.plus-svg {
+  padding: 10px;
+  background-color: #007a9a;
+  border-radius: 50%;
+}

@@ -78,6 +78,7 @@ const products = [
     imgUrl: prod2,
     category: "new",
     price: 900,
+    status: "Товар закінчується",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -90,6 +91,7 @@ const products = [
     imgUrl: prod3,
     category: "new",
     price: 900,
+    status: "Є в наявності",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -102,6 +104,7 @@ const products = [
     imgUrl: prod4,
     category: "new",
     price: 900,
+    status: "Є в наявності",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -113,6 +116,7 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: prod5,
     category: "new",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -125,6 +129,7 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: prod6,
     category: "new",
+    status: "Товар закінчується",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",

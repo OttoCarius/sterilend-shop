@@ -1,0 +1,91 @@
+.new__prod--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.new__prod--price {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #007a9a;
+
+  margin-bottom: 12px;
+}
+
+.new__prod--name {
+  font-family: "Manrope";
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #222324;
+  margin-bottom: 7px;
+}
+
+.new__prod--desc {
+  font-family: "Manrope";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #5c5c5c;
+  text-align: center;
+  width: 190px;
+  margin-bottom: 20px;
+}
+
+.new__prod--status {
+  font-family: "Manrope";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #007a9a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.new__img--wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 200px;
+  padding: 19px 70px;
+  background-color: #edf2f8;
+  border-radius: 50%;
+  transition: background-color 1s ease;
+}
+
+.new__img--wrap:hover {
+  background-color: #b6e4f1;
+}
+
+.new__img--btn {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  width: 220px;
+  padding: 0 30px;
+  margin-top: 30px;
+  border: 1px solid #1fa1c2;
+  border-radius: 36px;
+  transition: all 0.7s ease;
+}
+
+.new__img--btn:hover {
+  background-color: #b6e4f1;
+}
+
+.buy-icon {
+  padding: 12px 15px;
+  margin-left: -30px;
+  background-color: #b6e4f1;
+  border-radius: 46%;
+}
+
+.buy-icon.hover {
+  background-color: #ffffff;
+}
