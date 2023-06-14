@@ -77,7 +77,7 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: prod2,
     category: "new",
-    price: 900,
+    price: 860,
     status: "Товар закінчується",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -90,7 +90,7 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: prod3,
     category: "new",
-    price: 900,
+    price: 760,
     status: "Є в наявності",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -103,7 +103,7 @@ const products = [
     productName: "SterilOx Salon Expert",
     imgUrl: prod4,
     category: "new",
-    price: 900,
+    price: 920,
     status: "Є в наявності",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -117,7 +117,7 @@ const products = [
     imgUrl: prod5,
     category: "new",
     status: "Є в наявності",
-    price: 900,
+    price: 850,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -130,7 +130,7 @@ const products = [
     imgUrl: prod6,
     category: "new",
     status: "Товар закінчується",
-    price: 900,
+    price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -139,10 +139,10 @@ const products = [
   },
   {
     id: "10",
-    productName: "SterilOx Salon Expert",
+    productName: "SterilTop Salon Expert",
     imgUrl: prod1,
     category: "top",
-    price: 900,
+    price: 960,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -151,7 +151,7 @@ const products = [
   },
   {
     id: "11",
-    productName: "SterilOx Salon Expert",
+    productName: "SterilTop Salon Expert",
     imgUrl: prod2,
     category: "top",
     price: 850,
@@ -163,7 +163,7 @@ const products = [
   },
   {
     id: "12",
-    productName: "SterilOx Salon Expert",
+    productName: "SterilTop Salon Expert",
     imgUrl: prod3,
     category: "top",
     price: 760,
@@ -175,7 +175,7 @@ const products = [
   },
   {
     id: "13",
-    productName: "SterilOx Salon Expert",
+    productName: "SterilTop Salon Expert",
     imgUrl: prod4,
     category: "top",
     price: 860,
@@ -187,7 +187,7 @@ const products = [
   },
   {
     id: "14",
-    productName: "SterilOx Salon Expert",
+    productName: "SterilTop Salon Expert",
     imgUrl: prod5,
     category: "top",
     price: 800,

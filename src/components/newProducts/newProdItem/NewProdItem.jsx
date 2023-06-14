@@ -28,9 +28,9 @@ const NewProdItem = ({ item }) => {
               className="new__img"
             />
           </motion.div>
-          <Link to={"/shop/" + item.id} className="new__img--btn">
+          <button to={"/shop/" + item.id} className="new__img--btn">
             <FaShoppingCart className="buy-icon" size={50} /> Купити
-          </Link>
+          </button>
         </Link>
       </div>
     </div>

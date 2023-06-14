@@ -1,0 +1,106 @@
+.info__section {
+  background-image: url("../../assets/photos/Subtract.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 1040px;
+}
+
+.info__text--wrap {
+  margin-bottom: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info__text--wrap h3 {
+  padding-top: 185px;
+  font-family: "Manrope";
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 500;
+  max-width: 630px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.info__text--wrap h5 {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.info__text--column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.info__text--column p {
+  font-family: "Manrope";
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #5c5c5c;
+  max-width: 300px;
+}
+
+.info-section--img {
+  background-image: url("../../assets/photos/Ellipse\ 52.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 423px;
+}
+.info-section--img2 {
+  background-image: url("../../assets/photos/Ellipse\ 53.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 423px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info-section--img2 h3 {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  max-width: 306px;
+}
+
+.info-section--img2 h4 {
+  font-family: "Manrope";
+  font-size: 48px;
+  line-height: 66px;
+  font-weight: 500;
+  color: #007a9a;
+  margin-bottom: 50px;
+}
+.info-section--img2 button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #007a9a;
+}
+
+.info__section--icon {
+  padding: 10px;
+  color: #fff;
+  background-color: #007a9a;
+  border-radius: 50%;
+}

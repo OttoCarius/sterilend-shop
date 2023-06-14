@@ -4,3 +4,20 @@
 .group-wrap {
   margin-bottom: 120px;
 }
+
+.new__title--wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new__title {
+  font-family: "Manrope";
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 400;
+  color: #171818;
+
+  margin-bottom: 40px;
+}
