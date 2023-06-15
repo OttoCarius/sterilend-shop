@@ -29,7 +29,7 @@ const InfoSection = () => {
         <div className="info-section--img2">
           <h3>Отримати консультацію продавця</h3>
           <h4>+38 095 344 22 11</h4>
-          <button>
+          <button className="info-section--button">
             <FaPhoneAlt size={40} className="info__section--icon" />
             Замовити дзвінок
           </button>

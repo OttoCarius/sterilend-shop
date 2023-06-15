@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
 import logo from "../../assets/logo/Group 24.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { FaShoppingCart } from "react-icons/fa";
+import Catalog from "./catalog/Catalog";
 
 const Header = () => {
+  const [catalogActive, setCatalogActive] = useState(false);
+
   return (
     <section className="header-bg">
+      <Catalog active={catalogActive} setActive={setCatalogActive} />
       <div className="header  container">
         <div className="header__logo">
           <NavLink to={"/"}>
@@ -18,9 +22,10 @@ const Header = () => {
         <div className="catalog">
           <h3 className="catalog__title">Каталог товару</h3>
           <div className="catalog__icon">
-            <HiMenuAlt3 size={20} />
+            <HiMenuAlt3 size={20} onClick={() => setCatalogActive(true)} />
           </div>
         </div>
+
         <nav className="navigation">
           <ul className="nav-list">
             <li className="nav-item">

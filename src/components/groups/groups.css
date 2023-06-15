@@ -3,8 +3,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 500px;
-  margin-top: 180px;
+  width: 100%;
+  padding-top: 160px;
 }
 
 .tabs-container {

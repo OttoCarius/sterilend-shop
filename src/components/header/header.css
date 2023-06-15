@@ -48,6 +48,7 @@
   padding: 16px 19px;
   background-color: #b6e4f1;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .navigation {

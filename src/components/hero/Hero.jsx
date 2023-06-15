@@ -21,6 +21,7 @@ const Hero = ({ data }) => {
           gap: 300,
           width: 1400,
           breakpoints: {
+            1120: { perPage: 1, width: 1100 },
             674: { perPage: 1, width: 600 },
             420: { perPage: 1, width: 400 },
           },

@@ -89,7 +89,7 @@
   color: #007a9a;
   margin-bottom: 50px;
 }
-.info-section--img2 button {
+.info-section--button {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,4 +103,9 @@
   color: #fff;
   background-color: #007a9a;
   border-radius: 50%;
+  transition: all ease 0.5s;
+}
+
+.info__section--icon:hover {
+  background-color: #519fb3;
 }

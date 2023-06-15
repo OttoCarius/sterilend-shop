@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./productHero.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import CallMe from "../callMe/CallMe";
 
 const ProductHero = ({ item }) => {
+  const [callgActive, setCallActive] = useState(false);
+
   return (
     <div className="productHero__container">
       <div className="producthero__title--wrap">
         <span className="producthero__span">Революція</span>
         <h1 className="producthero__title">{item.revolut}</h1>
+        <CallMe active={callgActive} setActive={setCallActive} />
         <motion.button
           whileHover={{ scale: 1.1 }}
           className="productHero__details"
+          onClick={() => setCallActive(true)}
         >
           Детальніше
         </motion.button>

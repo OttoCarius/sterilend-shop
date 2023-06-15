@@ -1,0 +1,40 @@
+.news__item--wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 420px;
+  text-align: center;
+}
+
+.news__item--date {
+  font-family: "Manrope";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1fa1c2;
+  margin-left: 290px;
+  margin-bottom: 20px;
+}
+
+.news__item--title {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #171818;
+  margin-bottom: 10px;
+}
+
+.news__item--text {
+  font-family: "Manrope";
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5c5c5c;
+  margin-bottom: 30px;
+}
+
+.news__item--img {
+  width: 420px;
+}

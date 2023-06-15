@@ -19,5 +19,13 @@
   font-weight: 400;
   color: #171818;
 
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+.news__title--wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
 }
