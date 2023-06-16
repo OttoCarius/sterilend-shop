@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./header.css";
 import logo from "../../assets/logo/Group 24.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { FaShoppingCart } from "react-icons/fa";
 import Catalog from "./catalog/Catalog";
+import "./header.css";
 
 const Header = () => {
   const [catalogActive, setCatalogActive] = useState(false);

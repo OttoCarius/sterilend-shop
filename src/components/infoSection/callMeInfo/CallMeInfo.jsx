@@ -1,9 +1,9 @@
 import React from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
-import "./call-me.css";
+import "./callMeInfo.css";
 
-const CallMe = ({ active, setActive }) => {
+const CallMeInfo = ({ active, setActive }) => {
   return (
     <div
       className={active ? "call__wrap active" : "call__wrap"}
@@ -38,10 +38,10 @@ const CallMe = ({ active, setActive }) => {
       <AiFillCloseCircle
         onClick={() => setActive(false)}
         size={40}
-        className="close__call"
+        className="close__callme--info"
       />
     </div>
   );
 };
 
-export default CallMe;
+export default CallMeInfo;

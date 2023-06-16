@@ -8,3 +8,19 @@
   align-items: center;
   gap: 180px;
 }
+
+.splide__pagination {
+  margin-left: -80px;
+}
+
+@media (max-width: 1320px) {
+  .splide__pagination {
+    margin-left: -160px;
+  }
+}
+
+@media (max-width: 890px) {
+  .splide__pagination {
+    margin-left: -70px;
+  }
+}

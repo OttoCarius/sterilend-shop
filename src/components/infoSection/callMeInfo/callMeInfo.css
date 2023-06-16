@@ -28,15 +28,15 @@
   align-items: center;
 }
 
-.close__call {
-  position: absolute;
-  top: 10px;
-  right: 80px;
+.close__callme--info {
+  position: relative;
+  top: -130px;
+  right: 60px;
   cursor: pointer;
   color: #6ecce9;
   transition: all ease 0.6s;
 }
-.close__call:hover {
+.close__callme--info:hover {
   color: #007a9a;
 }
 

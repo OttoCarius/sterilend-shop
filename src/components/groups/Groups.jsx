@@ -15,22 +15,32 @@ const Groups = () => {
   return (
     <div>
       <h2 className="group-title">Групи товарів та послуг</h2>
-      <img src={image} alt="" className="aa" />
+      {servises.map((servise, i) => (
+        <div key={i}>
+          {currentTab === `${servise.id}` && (
+            <div className="">
+              <img src={servise.bImg} alt="" className="aa" />
+            </div>
+          )}
+        </div>
+      ))}
       <div className="tabs-container container">
         <div className="content">
           {servises.map((servise, i) => (
             <div key={i}>
               {currentTab === `${servise.id}` && (
                 <div className="part-wrap">
-                  <p className="title">{servise.group}</p>
-                  <p className="part-title">{servise.part1}</p>
-                  <p className="part-title">{servise.part2}</p>
-                  <p className="part-title">{servise.part3}</p>
-                  <p className="part-title">{servise.part4}</p>
-                  <p className="part-title">{servise.part5}</p>
-                  <p className="part-title">{servise.part6}</p>
-                  <p className="part-title">{servise.part7}</p>
-                  <p className="part-title">{servise.part8}</p>
+                  <div className="db">
+                    <p className="title">{servise.group}</p>
+                    <p className="part-title">{servise.part1}</p>
+                    <p className="part-title">{servise.part2}</p>
+                    <p className="part-title">{servise.part3}</p>
+                    <p className="part-title">{servise.part4}</p>
+                    <p className="part-title">{servise.part5}</p>
+                    <p className="part-title">{servise.part6}</p>
+                    <p className="part-title">{servise.part7}</p>
+                    <p className="part-title">{servise.part8}</p>
+                  </div>
                 </div>
               )}
             </div>

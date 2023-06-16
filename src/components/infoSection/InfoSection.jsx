@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
+import CallMeInfo from "./callMeInfo/CallMeInfo";
 import "./info-section.css";
 
 const InfoSection = () => {
+  const [callgActive, setCallActive] = useState(false);
   return (
     <section className="info__section">
       <div className="info__section--wrap container">
+        <CallMeInfo active={callgActive} setActive={setCallActive} />
         <div className="info__text--wrap">
           <h3>
             Ми готові запропонувати повний спектр індивідуальних рішень для
@@ -29,7 +32,10 @@ const InfoSection = () => {
         <div className="info-section--img2">
           <h3>Отримати консультацію продавця</h3>
           <h4>+38 095 344 22 11</h4>
-          <button className="info-section--button">
+          <button
+            className="info-section--button"
+            onClick={() => setCallActive(true)}
+          >
             <FaPhoneAlt size={40} className="info__section--icon" />
             Замовити дзвінок
           </button>

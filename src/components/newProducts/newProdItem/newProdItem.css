@@ -89,3 +89,69 @@
 .buy-icon.hover {
   background-color: #ffffff;
 }
+
+@media (max-width: 1480px) {
+  .new__prod--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .new__img--btn {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 840px) {
+  .new__prod--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+  }
+}
+
+@media (max-width: 490px) {
+  .new__img--wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    padding: 10px 10px;
+    margin-left: 20px;
+  }
+  .new__img {
+    width: 60px;
+  }
+  .new__img--btn {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 125px;
+    padding: 0 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .buy-icon {
+    padding: 12px 15px;
+    margin-left: -20px;
+    background-color: #b6e4f1;
+    border-radius: 46%;
+  }
+
+  .new__prod--name {
+    font-size: 18px;
+    line-height: 22px;
+    width: 140px;
+  }
+
+  .new__prod--desc {
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    width: 140px;
+  }
+}

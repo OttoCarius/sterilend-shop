@@ -114,3 +114,77 @@
   border-radius: 50%;
   border: 1px solid #80cde4;
 }
+
+@media (max-width: 1320px) {
+  .producthero__title--wrap {
+    width: 220px;
+  }
+  .producthero__title {
+    font-family: "Manrope";
+    font-size: 38px;
+    line-height: 55px;
+    color: #242829;
+  }
+  .producthero__img {
+    height: 540px;
+    width: 500px;
+  }
+  .producthero__info--wrap {
+    max-width: 220px;
+    margin-top: 80px;
+  }
+  .productHero__buy--border {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .producthero__img {
+    height: 520px;
+    width: 460px;
+  }
+}
+
+@media (max-width: 890px) {
+  .productHero__container {
+    flex-direction: column;
+  }
+  .producthero__img {
+    width: 460px;
+  }
+  .producthero__title {
+    font-family: "Manrope";
+    font-size: 32px;
+    line-height: 40px;
+    color: #242829;
+  }
+  .productHero__details {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  .producthero__info--wrap {
+    max-width: 320px;
+    margin-top: -50px;
+  }
+  .productHero__buy--border {
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
+  .producthero__title--wrap {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .producthero__title--wrap {
+    width: 300px;
+  }
+
+  .producthero__img {
+    height: 400px;
+    width: 300px;
+  }
+}

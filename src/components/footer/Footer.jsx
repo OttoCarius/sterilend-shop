@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsInstagram, BsFacebook } from "react-icons/bs";
+import CallMeInfo from "../infoSection/callMeInfo/CallMeInfo";
 import logo from "../../assets/logo/Group 24.png";
 import "./footer.css";
 
 const Footer = () => {
+  const [callgActive, setCallActive] = useState(false);
   return (
     <section className="footer__section">
+      <CallMeInfo active={callgActive} setActive={setCallActive} />
       <div className="container footer__container">
         <div className="logo__footer--wrapper">
           <img src={logo} alt="logo" />
@@ -15,7 +18,10 @@ const Footer = () => {
         </div>
         <div className="call__footer--wrap">
           <p>+38 095 344 22 11</p>
-          <button className="info-section--button">
+          <button
+            className="info-section--button"
+            onClick={() => setCallActive(true)}
+          >
             <FaPhoneAlt size={40} className="info__section--icon" />
             Замовити дзвінок
           </button>

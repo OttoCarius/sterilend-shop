@@ -29,3 +29,9 @@
   align-items: center;
   margin-top: 500px;
 }
+
+@media (max-width: 890px) {
+  .home__container {
+    margin-top: -1200px;
+  }
+}

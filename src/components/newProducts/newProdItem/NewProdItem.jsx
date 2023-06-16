@@ -6,7 +6,7 @@ import "./newProdItem.css";
 
 const NewProdItem = ({ item }) => {
   return (
-    <div className="new__prod--container container">
+    <div className="container">
       <div className="new__prod--wrap">
         <p className="new__prod--price">{item.price} ₴</p>
         <Link to={"/shop/" + item.id}>

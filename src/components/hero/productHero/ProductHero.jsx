@@ -33,7 +33,7 @@ const ProductHero = ({ item }) => {
         <p className="producthero__text">{item.price} ₴</p>
         <h3 className="producthero__name">{item.productName}</h3>
         <p className="producthero__class">{item.shortDesc}</p>
-        <Link to={"/shop/" + item.id}>
+        <Link to={"/shop/" + item.id} className="">
           <motion.div
             whileHover={{ scale: 0.9 }}
             className="productHero__buy--border"

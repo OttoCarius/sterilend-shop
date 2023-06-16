@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 1000px;
+  height: 1100px;
 }
 
 .header {
@@ -90,4 +90,28 @@
 
 .items__length {
   padding: 4px;
+}
+
+@media (max-width: 890px) {
+  .catalog__title {
+    display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  .header-bg {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__logo--title {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+  }
+  .header__logo {
+    flex-direction: column;
+    gap: 1px;
+  }
 }
