@@ -10,7 +10,7 @@ const Header = () => {
   const [catalogActive, setCatalogActive] = useState(false);
 
   return (
-    <section className="header-bg">
+    <section>
       <Catalog active={catalogActive} setActive={setCatalogActive} />
       <div className="header  container">
         <div className="header__logo">
@@ -25,7 +25,6 @@ const Header = () => {
             <HiMenuAlt3 size={20} onClick={() => setCatalogActive(true)} />
           </div>
         </div>
-
         <nav className="navigation">
           <ul className="nav-list">
             <li className="nav-item">

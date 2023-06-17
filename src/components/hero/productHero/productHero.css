@@ -144,11 +144,16 @@
     height: 520px;
     width: 460px;
   }
+
+  .header-bg {
+    height: 900px;
+  }
 }
 
 @media (max-width: 890px) {
   .productHero__container {
     flex-direction: column;
+    padding-top: 300px;
   }
   .producthero__img {
     width: 460px;
@@ -175,6 +180,9 @@
   .producthero__title--wrap {
     text-align: center;
     margin-top: 20px;
+  }
+  .header-bg {
+    height: 1700px;
   }
 }
 

@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center center;
   height: 1100px;
+  margin-top: 700px;
 }
 
 .header {
@@ -38,6 +39,7 @@
 
   border: 1px solid #007a9a;
   border-radius: 36px;
+  margin-left: 90px;
 }
 
 .catalog__title {

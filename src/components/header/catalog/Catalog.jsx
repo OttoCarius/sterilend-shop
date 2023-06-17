@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import servises from "../../../helpers/servises";
-import "./catalog.css";
+import { Link } from "react-router-dom";
 import { AiFillCloseCircle } from "react-icons/ai";
+import "./catalog.css";
 
-const Catalog = ({ active, setActive }) => {
+const Catalog = ({ active, setActive, item }) => {
   const [currentTab, setCurrentTab] = useState("1");
 
   const handleTabClick = (e) => {
@@ -15,6 +16,36 @@ const Catalog = ({ active, setActive }) => {
       onClick={() => setActive(false)}
     >
       <div className="cataloge" onClick={(e) => e.stopPropagation()}>
+        <div className="catalog__links">
+          <Link
+            to={"/about"}
+            onClick={() => setActive(false)}
+            className="catalog__links--item"
+          >
+            Про нас
+          </Link>
+          <Link
+            to={"/news"}
+            onClick={() => setActive(false)}
+            className="catalog__links--item"
+          >
+            Новини
+          </Link>
+          <Link
+            to={"/contact"}
+            onClick={() => setActive(false)}
+            className="catalog__links--item"
+          >
+            Контакти
+          </Link>
+          <Link
+            to={"/shop"}
+            onClick={() => setActive(false)}
+            className="catalog__links--item"
+          >
+            Каталог
+          </Link>
+        </div>
         <div className="catalog__content">
           {servises.map((servise, i) => (
             <div key={i}>
@@ -22,14 +53,34 @@ const Catalog = ({ active, setActive }) => {
                 <div className="catalog__title--wrapper">
                   <h3 className="title">{servise.group}</h3>
                   <div className="catalog__part-wrap">
-                    <p className="part-title">{servise.part1}</p>
-                    <p className="part-title">{servise.part2}</p>
-                    <p className="part-title">{servise.part3}</p>
-                    <p className="part-title">{servise.part4}</p>
-                    <p className="part-title">{servise.part5}</p>
-                    <p className="part-title">{servise.part6}</p>
-                    <p className="part-title">{servise.part7}</p>
-                    <p className="part-title">{servise.part8}</p>
+                    <Link
+                      className="part__title--link"
+                      to={"/shop"}
+                      onClick={() => setActive(false)}
+                    >
+                      <p className="part-title">{servise.part1}</p>
+                    </Link>
+                    <Link to={"/shop"} onClick={() => setActive(false)}>
+                      <p className="part-title">{servise.part2}</p>
+                    </Link>
+                    <Link to={"/shop"} onClick={() => setActive(false)}>
+                      <p className="part-title">{servise.part3}</p>
+                    </Link>
+                    <Link to={"/shop"} onClick={() => setActive(false)}>
+                      <p className="part-title">{servise.part4}</p>
+                    </Link>
+                    <Link to={"/shop"} onClick={() => setActive(false)}>
+                      <p className="part-title">{servise.part5}</p>
+                    </Link>
+                    <Link to={"/shop"} onClick={() => setActive(false)}>
+                      <p className="part-title">{servise.part6}</p>
+                    </Link>
+                    <Link to={"/shop"} onClick={() => setActive(false)}>
+                      <p className="part-title">{servise.part7}</p>
+                    </Link>
+                    <Link to={"/shop"} onClick={() => setActive(false)}>
+                      <p className="part-title">{servise.part8}</p>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -52,6 +103,7 @@ const Catalog = ({ active, setActive }) => {
               />
             ))}
           </div>
+
           <AiFillCloseCircle
             onClick={() => setActive(false)}
             size={40}

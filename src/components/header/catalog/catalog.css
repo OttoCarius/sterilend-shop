@@ -34,8 +34,16 @@
   gap: 20px;
 }
 
+.part-title {
+  color: #2c464e !important;
+  transition: all ease 0.7s;
+}
+.part-title:hover {
+  color: #43a8c7 !important;
+}
+
 .catalog__part-wrap {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -55,4 +63,26 @@
 }
 .close__catalog:hover {
   color: #007a9a;
+}
+
+.catalog__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.catalog__links--item {
+  padding: 30px 20px;
+  border-radius: 50%;
+  background-color: #97daee !important;
+  color: #007a9a !important;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -80px;
+  transition: all ease 0.7s;
+}
+.catalog__links--item:hover {
+  background-color: #52b2cf !important;
+  color: #e8f5f8 !important;
 }

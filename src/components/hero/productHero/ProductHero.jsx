@@ -8,7 +8,7 @@ const ProductHero = ({ item }) => {
   const [callgActive, setCallActive] = useState(false);
 
   return (
-    <div className="productHero__container">
+    <div className="productHero__container container">
       <div className="producthero__title--wrap">
         <span className="producthero__span">Революція</span>
         <h1 className="producthero__title">{item.revolut}</h1>

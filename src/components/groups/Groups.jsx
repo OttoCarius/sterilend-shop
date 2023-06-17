@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import servises from "../../helpers/servises";
 import "./groups.css";
-import image from "../../assets/photos/image 50.png";
 import { BsPlusCircle } from "react-icons/bs";
 import { motion } from "framer-motion";
 

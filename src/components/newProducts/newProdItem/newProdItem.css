@@ -73,6 +73,7 @@
   border: 1px solid #1fa1c2;
   border-radius: 36px;
   transition: all 0.7s ease;
+  margin-bottom: 50px;
 }
 
 .new__img--btn:hover {
