@@ -1,17 +1,4 @@
-.shop__wrap {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-
-  margin-bottom: 40px;
-}
 .shop-container {
   margin-bottom: 160px;
   text-align: center;
-}
-
-@media (max-width: 1480px) {
-  .shop__wrap {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
 }

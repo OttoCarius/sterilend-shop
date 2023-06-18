@@ -1,0 +1,147 @@
+.shop__prod--wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.shop__prod--price {
+  font-family: "Manrope";
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #007a9a;
+
+  margin-bottom: 12px;
+}
+
+.shop__prod--name {
+  font-family: "Manrope";
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #222324;
+  margin-bottom: 7px;
+}
+
+.shop__prod--desc {
+  font-family: "Manrope";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #5c5c5c;
+  text-align: center;
+  width: 190px;
+  margin-bottom: 20px;
+}
+
+.shop__prod--status {
+  font-family: "Manrope";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #007a9a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shop__img--wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 200px;
+  padding: 19px 70px;
+  background-color: #edf2f8;
+  border-radius: 50%;
+  transition: background-color 1s ease;
+}
+
+.shop__img--wrap:hover {
+  background-color: #b6e4f1;
+}
+
+.shop__img--btn {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  width: 220px;
+  padding: 0 30px;
+  margin-top: 30px;
+  border: 1px solid #1fa1c2;
+  border-radius: 36px;
+  transition: all 0.7s ease;
+  margin-bottom: 50px;
+}
+
+.shop__img--btn:hover {
+  background-color: #b6e4f1;
+}
+
+.shop__buy-icon {
+  padding: 12px 15px;
+  margin-left: -30px;
+  background-color: #b6e4f1;
+  border-radius: 46%;
+}
+
+.shop-icon.hover {
+  background-color: #ffffff;
+}
+
+@media (max-width: 1480px) {
+  .shop__img--btn {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 840px) {
+}
+
+@media (max-width: 490px) {
+  .shop__img--wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    padding: 10px 10px;
+    margin-left: 20px;
+  }
+  .shop__img {
+    width: 60px;
+  }
+  .shop__img--btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 150px;
+    padding: 0 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  .shop__buy-icon {
+    padding: 12px 15px;
+    margin-left: -20px;
+    background-color: #b6e4f1;
+    border-radius: 46%;
+  }
+
+  .shop__prod--name {
+    font-size: 18px;
+    line-height: 22px;
+    width: 140px;
+  }
+
+  .shop__prod--desc {
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    width: 140px;
+  }
+}

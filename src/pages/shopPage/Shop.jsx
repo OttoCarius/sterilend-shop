@@ -5,9 +5,7 @@ import "./shop.css";
 const Shop = () => {
   return (
     <div className="container shop-container">
-      <div className="shop__wrap">
-        <ShopComponent />
-      </div>
+      <ShopComponent />
     </div>
   );
 };

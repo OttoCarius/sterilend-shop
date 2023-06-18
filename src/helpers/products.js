@@ -22,6 +22,7 @@ const products = [
     imgUrl: hero1,
     category: "hero",
     oldPrice: 2400,
+    status: "Хіт продажу",
     price: 1900,
     revolut: "y природній дезінфекції",
     shortDesc:
@@ -36,6 +37,7 @@ const products = [
     imgUrl: hero2,
     category: "hero",
     oldPrice: 2300,
+    status: "Хіт продажу",
     price: 1820,
     revolut: "y екологічній розробці",
     shortDesc:
@@ -50,6 +52,7 @@ const products = [
     imgUrl: hero3,
     category: "hero",
     oldPrice: 2200,
+    status: "Хіт продажу",
     price: 1800,
     revolut: "y санітарній безпеці",
     shortDesc:
@@ -64,6 +67,7 @@ const products = [
     imgUrl: hero4,
     category: "hero",
     oldPrice: 2200,
+    status: "Хіт продажу",
     price: 1700,
     revolut: "ефективності проти бактерій",
     shortDesc:
@@ -78,7 +82,7 @@ const products = [
     imgUrl: prod2,
     category: "new",
     price: 860,
-    status: "Товар закінчується",
+    status: "Хіт продажу",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -143,6 +147,7 @@ const products = [
     imgUrl: prod1,
     category: "top",
     price: 960,
+    status: "Товар закінчується",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -154,6 +159,7 @@ const products = [
     productName: "SterilTop Salon Expert",
     imgUrl: prod2,
     category: "top",
+    status: "Є в наявності",
     price: 850,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -167,6 +173,7 @@ const products = [
     imgUrl: prod3,
     category: "top",
     price: 760,
+    status: "Хіт продажу",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -179,6 +186,7 @@ const products = [
     imgUrl: prod4,
     category: "top",
     price: 860,
+    status: "Є в наявності",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -190,6 +198,7 @@ const products = [
     productName: "SterilTop Salon Expert",
     imgUrl: prod5,
     category: "top",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -203,6 +212,7 @@ const products = [
     imgUrl: prod1,
     category: "medic",
     price: 800,
+    status: "Товар закінчується",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -214,6 +224,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod2,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -226,6 +237,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod3,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -238,6 +250,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod4,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -250,6 +263,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod5,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -262,6 +276,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod6,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -274,6 +289,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod7,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -287,6 +303,7 @@ const products = [
     imgUrl: prod8,
     category: "medic",
     price: 800,
+    status: "Є в наявності",
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -298,6 +315,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod9,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -310,6 +328,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod10,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -322,6 +341,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod11,
     category: "medic",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -334,6 +354,7 @@ const products = [
     productName: "SterilOx Medic Expert",
     imgUrl: prod12,
     category: "medic",
+    status: "Товар закінчується",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -346,6 +367,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod4,
     category: "restaurant",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -358,6 +380,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod3,
     category: "restaurant",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -370,6 +393,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod2,
     category: "restaurant",
+    status: "Товар закінчується",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -382,6 +406,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod1,
     category: "restaurant",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -394,6 +419,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod7,
     category: "restaurant",
+    status: "Товар закінчується",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -406,6 +432,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod8,
     category: "restaurant",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -418,6 +445,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod5,
     category: "restaurant",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -430,6 +458,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod6,
     category: "restaurant",
+    status: "Є в наявності",
     price: 680,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -442,6 +471,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod9,
     category: "restaurant",
+    status: "Є в наявності",
     price: 600,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -454,6 +484,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod10,
     category: "restaurant",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -466,6 +497,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod11,
     category: "restaurant",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -478,6 +510,7 @@ const products = [
     productName: "SterilOx Restaurant Expert",
     imgUrl: prod12,
     category: "restaurant",
+    status: "Товар закінчується",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -491,6 +524,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod1,
     category: "beauty",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -503,6 +537,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod2,
     category: "beauty",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -515,6 +550,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod3,
     category: "beauty",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -527,6 +563,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod4,
     category: "beauty",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -539,6 +576,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod5,
     category: "beauty",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -551,6 +589,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod6,
     category: "beauty",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -563,6 +602,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod7,
     category: "beauty",
+    status: "Товар закінчується",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -575,6 +615,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod8,
     category: "beauty",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -587,6 +628,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod9,
     category: "beauty",
+    status: "Є в наявності",
     price: 710,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -599,6 +641,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod10,
     category: "beauty",
+    status: "Є в наявності",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -611,6 +654,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod11,
     category: "beauty",
+    status: "Є в наявності",
     price: 780,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -623,6 +667,7 @@ const products = [
     productName: "SterilOx Beauty Expert",
     imgUrl: prod12,
     category: "beauty",
+    status: "Товар закінчується",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -636,6 +681,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod8,
     category: "transport",
+    status: "Є в наявності",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -648,6 +694,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod4,
     category: "transport",
+    status: "Є в наявності",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -660,6 +707,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod5,
     category: "transport",
+    status: "Є в наявності",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -672,6 +720,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod2,
     category: "transport",
+    status: "Є в наявності",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -684,6 +733,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod3,
     category: "transport",
+    status: "Є в наявності",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -696,6 +746,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod7,
     category: "transport",
+    status: "Товар закінчується",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -708,6 +759,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod6,
     category: "transport",
+    status: "Хіт продажу",
     price: 600,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -720,6 +772,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod1,
     category: "transport",
+    status: "Є в наявності",
     price: 760,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -732,6 +785,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod11,
     category: "transport",
+    status: "Товар закінчується",
     price: 740,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -744,6 +798,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod12,
     category: "transport",
+    status: "Хіт продажу",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -756,6 +811,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod9,
     category: "transport",
+    status: "Є в наявності",
     price: 900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -768,6 +824,7 @@ const products = [
     productName: "SterilOx Transport Expert",
     imgUrl: prod10,
     category: "transport",
+    status: "Є в наявності",
     price: 560,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -781,6 +838,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod12,
     category: "social",
+    status: "Хіт продажу",
     price: 560,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -793,6 +851,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod11,
     category: "social",
+    status: "Товар закінчується",
     price: 560,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -805,6 +864,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod10,
     category: "social",
+    status: "Є в наявності",
     price: 560,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -817,6 +877,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod9,
     category: "social",
+    status: "Є в наявності",
     price: 960,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -829,6 +890,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod8,
     category: "social",
+    status: "Хіт продажу",
     price: 760,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -841,6 +903,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod7,
     category: "social",
+    status: "Є в наявності",
     price: 570,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -853,6 +916,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod6,
     category: "social",
+    status: "Є в наявності",
     price: 660,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -865,6 +929,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod5,
     category: "social",
+    status: "Товар закінчується",
     price: 600,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -877,6 +942,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod4,
     category: "social",
+    status: "Хіт продажу",
     price: 700,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -889,6 +955,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod3,
     category: "social",
+    status: "Товар закінчується",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -901,6 +968,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod2,
     category: "social",
+    status: "Хіт продажу",
     price: 760,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -913,6 +981,7 @@ const products = [
     productName: "SterilOx Social Expert",
     imgUrl: prod1,
     category: "social",
+    status: "Є в наявності",
     price: 660,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -926,6 +995,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod4,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -938,6 +1008,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod12,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -950,6 +1021,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod3,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -962,6 +1034,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod1,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -974,6 +1047,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod2,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -986,6 +1060,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod5,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -998,6 +1073,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod7,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -1010,6 +1086,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod10,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -1022,6 +1099,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod11,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -1034,6 +1112,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod8,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -1046,6 +1125,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod6,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -1058,6 +1138,7 @@ const products = [
     productName: "SterilOx Service Expert",
     imgUrl: prod9,
     category: "service",
+    status: "Є в наявності",
     price: 800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",

@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 import products from "../../helpers/products.js";
-import { FaShoppingCart } from "react-icons/fa";
 import ShopComponentItem from "./shopComponentItem/ShopComponentItem";
+import "./shop-component.css";
 
 const itemPerRow = 20;
 
@@ -104,12 +102,21 @@ const ShopComponent = () => {
     }
   };
 
+  const handleSearch = (e) => {
+    const searchProd = e.target.value;
+
+    const searchProduct = products.filter((item) =>
+      item.productName.toLowerCase().includes(searchProd.toLowerCase())
+    );
+    setProductsData(searchProduct);
+  };
+
   const handleMore = () => {
     setNext(next + itemPerRow);
   };
 
   return (
-    <div className="container">
+    <div className="filters__wrap--container">
       <div className="filters__wrap">
         <div className="category__select--wrap">
           <select onChange={handleFilter} className="category__select">
@@ -151,17 +158,32 @@ const ShopComponent = () => {
             className="input__select"
             type="text"
             placeholder="Пошук товару"
+            onChange={handleSearch}
           />
         </div>
       </div>
-      <div className="shop__wrap ">
-        {productsData?.slice(0, next)?.map((item, id) => (
-          <ShopComponentItem item={item} key={id} />
-        ))}
+      <div className="">
+        {productsData.length === 0 ? (
+          <div className="no-product--title">
+            <h2>такого товару немає</h2>
+          </div>
+        ) : (
+          <div className="shop__wrap">
+            {productsData?.slice(0, next)?.map((item, id) => (
+              <ShopComponentItem item={item} key={id} />
+            ))}
+          </div>
+        )}
+        {productsData.length === 0 ? (
+          <button onClick={handleMore} className="more__btn--none">
+            Більше товарів
+          </button>
+        ) : (
+          <button onClick={handleMore} className="more__btn">
+            Більше товарів
+          </button>
+        )}
       </div>
-      <button onClick={handleMore} className="more__btn">
-        Більше товарів
-      </button>
     </div>
   );
 };
